@@ -24,7 +24,7 @@ APU Automotive Service Centre is a Java-based application developed as part of a
 - Customer
 
 ## My Contribution
-Developed the system using Java and Object-Oriented Programming principles. Worked on Manager's system functionality, user interface development, and file handling.
+Developed the system using Java and Object-Oriented Programming principles. Worked on system login, Manager's system functionality, user interface development, and file handling.
 
 ## Project Type
 Academic Coursework Project
