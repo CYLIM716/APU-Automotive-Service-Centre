@@ -1,0 +1,47 @@
+[Users]
+M001,111111,Manager,Lim
+S001,222222,Counter Staff,GONG
+T001,333333,Technician,Lin
+T002,101101,Technician,Henry
+C001,444444,Customer,Ileys
+C002,555555,Customer,Ryan
+C003,666666,Customer,David
+C004,777777,Customer,Charles
+[Customers]
+C001,Ileys,0124332222,WXX1234,444444
+C002,Ryan,0111111111,ABC9999,555555
+C003,David,0123334444,JHR1,666666
+C004,Charles,0197778888,WWW3131,777777
+[CustomersDetails]
+C001,Ileys,ileys@gmail.com,0124332222,Bukit Jalil,444444,Customer
+C002,Ryan,ryan@yahoo.com,0111111111,Test KL,555555,Customer
+C003,David,david@hotmail.com,0123334444,Test KL,666666,Customer
+C004,Charles,charles@gmail.com,0197778888,Test KL,777777,Customer
+[Price]
+NormalService,80.0
+MajorService,250.0
+[Appointments]
+A001,C001,T002,Normal,2026-03-10,10:00,Assigned
+A002,C002,T002,Major,2026-04-15,14:00,Completed
+A003,C003,T001,Normal,2026-05-20,15:00,Wait for checking
+A004,C004,T001,Normal,2026-05-23,16:00,Pending
+[CounterStaffPayments]
+P001,A001,80.0,Cash,PAID,Normal Service
+P002,A002,250.0,Credit Card,PAID,Major Service
+[Payments]
+R001,A001,C001,2026-03-10,Normal Service,80.00,Cash
+R002,A002,C002,2026-04-15,Major Service,250.00,Credit Card
+[Details]
+A001,C001,COUNTER_STAFF,S001,My car has an oil leak and the engine light is on.,2026-03-10
+A001,C001,TECHNICIAN,T001,Engine making loud knocking noise when I accelerate.,2026-03-10
+A002,C001,TECHNICIAN,T002,Brakes feel very weak and car shakes at high speed.,2026-04-15
+A003,C002,COUNTER_STAFF,S002,Air conditioning not blowing cold air at all.,2026-03-22
+A004,C003,TECHNICIAN,T003,Car battery dies every morning and gearbox is slipping.,2026-04-01
+[Feedbacks]
+A001,C001,Very professional and thorough.,2026-03-10
+A002,C001,Friendly and helpful during booking.,2026-04-15
+A003,C002,Great job. Car runs much better now.,2026-03-22
+A005,C004,Satisfied with the service.,2026-04-20
+[Comments]
+A003,Air condition service done.
+[]
